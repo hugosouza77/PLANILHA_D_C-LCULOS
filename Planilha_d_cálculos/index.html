@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+   <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    >
+    <h1>Planilha de cálculos</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th scope="col">Código</th>
+                <th scope="col">Descrição</th>
+                <th scope="col">Valor</th>
+            </tr>
+        </thead>
+
+   <tbody>
+
+       <tr>
+        <th scope="col" colspan="3">RECEITAS</th>
+       </tr>
+
+       <tr>
+           <th scope=" col" >1</th>
+           <td> Valor da Base (R$)</td>
+           <td><input type="number" id="valor_base" value="0" form="formulario"></td>
+       </tr>
+      
+      <tr>
+           <th scope="col">2</th>
+           <td>Ajuda com transporte (R$)</td>
+           <td><input type="number" id="ajuda_transporte" value="0" form="formulario"></td>
+      </tr>
+
+       <tr>
+           <th scope="col">3</th>
+           <th>Ajuda alimentação (R$)</th>
+           <td><input type="number" id="ajuda_alimentacao" value="0" form="formulario"></td> 
+        </tr>
+
+       <tr>
+           <th scope="col">4</th>
+           <th>Receita Total (R$)</th>
+           <td><input type="number" id="receita_total" disabled form="formulario"></td>
+        </tr>
+
+           <tr>
+               <th scope="col" colspan="3">DESCONTOS</th>
+           </tr>
+
+           <tr>
+              <th scope="col">5</th>
+              <th>Desconto do Automóvel (R$)</th>
+              <td><input type="number" id="desconto_automovel" value="0" form="formulario"></td>
+            </tr>
+
+          <tr>
+               <th scope="col">6</th>
+               <th>Faltas (R$)</th>
+               <td><input type="number" id="faltas" value="0" form="formulario"></td>
+            </tr>
+
+            <tr>
+               <th scope="col">7</th>
+               <th>Desconto Total</th>
+               <td><input type="number" id="desconto_total" disabled form="formulario"></td>
+            </tr>
+
+           <tr>
+               <th scope="col" colspan="3">TOTAL</th>
+           </tr>
+
+           <tr>
+               <th scope="col">8</th>
+               <th>Total (R$)</th>
+               <td><input type="number" id="total" disabled form="formulario"></td>
+            </tr>
+    </tbody>
+    </table>
+
+    <form id="formulario" action="" form="formulario">
+        <button id="soma" form="formulario">Calcular</button>
+        <input type="reset" value="Limpar">
+    </form>
+
+    <script src="js/index.js"></script>
+ 
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+table{
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: white;
+    background-size: auto;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: bold;
+    text-transform: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ 
+button{
+    color: white;
+    background: green;
+    border-color:white;
+    height: 25px;
+    width: 100px;
+    margin-top: 40px;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    background-color: #778899;
+}
+
+input{
+   border-color: white;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+}
+
+form input {
+    background-color: red;
+    height: 25px;
+    width: 100;
+    color: white;
+}
+
